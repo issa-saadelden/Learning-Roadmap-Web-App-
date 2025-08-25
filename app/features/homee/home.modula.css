@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 100px auto;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: gray;
+}
+
+.divider-text {
+  margin: 0 10px;
+  color: gray;
+  font-weight: bold;
+}
+
+.course-box {
+  padding: 50px;
+}
+
+.newCourse-box {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

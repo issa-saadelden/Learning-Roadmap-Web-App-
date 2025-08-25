@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  padding: 40px;
+  align-content: center;
+  background-color: rgb(20, 22, 20);
+  max-width: 500px;
+}
+
+.labels {
+  display: flex;
+  justify-content: center;
+  line-height: 27px;
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.boxes {
+  display: block;
+  justify-content: center;
+  line-height: 20px;
+  font-size: larger;
+  min-height: 45px;
+  margin: auto;
+  padding: 10px;
+  min-width: 350px;
+}
